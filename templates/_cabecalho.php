@@ -35,6 +35,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/bib/views/login.php">Login</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/bib/views/perfil.php">Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Sair</a>
+                            </li>
                         </ul>
                     </div>
                 </dialog>

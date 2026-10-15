@@ -12,7 +12,7 @@
 
 <body>
 
-    <head>
+    <header>
         <nav class="navbar sm:navbar-expand bg-1 fg-2">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">#</a>
@@ -46,4 +46,4 @@
                 </dialog>
             </div>
         </nav>
-    </head>
+    </header>

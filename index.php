@@ -2,16 +2,30 @@
 require_once __DIR__ . "/templates/_cabecalho.php";
 ?>
 
-<main class="container">
-    <div class="m-5 row">
-        <div class="col mb-5">
-            <a href="/bib/views/detalhes.php" style="text-decoration: none;">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+<main class="container py-5">
+    <div class="mb-4">
+        <h1 class="h3 mb-1">Biblioteca</h1>
+        <p class="text-muted mb-0">
+            Explore os livros disponíveis no catálogo.
+        </p>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-12 sm:col-6 md:col-4 lg:col-2">
+            <a href="/bib/views/detalhes.php?id=1"
+                class="text-decoration-none text-reset">
+                <article class="card h-100 border-0 shadow-sm">
+                    <img src="https://picsum.photos/seed/livro1/200/400" class="card-img-top" alt="Capa ilustrativa de Dom Casmurro" loading="lazy" style="aspect-ratio: 2 / 3; object-fit: cover;">
+
                     <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <h2 class="h6 card-title mb-2">
+                            Dom Casmurro
+                        </h2>
+                        <p class="card-text text-muted small mb-0">
+                            Machado de Assis
+                        </p>
                     </div>
-                </div>
+                </article>
             </a>
         </div>
     </div>

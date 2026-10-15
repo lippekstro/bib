@@ -2,15 +2,15 @@
 require_once __DIR__ . "/../templates/_cabecalho.php";
 ?>
 
-<main class="container">
-    <div class="card border-0 shadow-sm rounded-4">
+<main class="container py-5">
+    <div class="card border-0 shadow-sm rounded-4 m-5">
         <div class="card-body p-4">
             <div class="row g-4 align-items-start">
-                <div class="col-6 col-md-5 col-lg-4">
+                <div class="col-4 col-md-5 col-lg-4">
                     <img src="https://picsum.photos/200" alt="Capa do livro" class="img-fluid rounded-3 shadow-sm w-100" style="max-height: 520px; object-fit: contain;">
                 </div>
 
-                <div class="col-6 col-md-7 col-lg-8">
+                <div class="col-8 col-md-7 col-lg-8">
                     <h2 class="fw-bold mb-2">
                         O Pequeno Príncipe
                     </h2>

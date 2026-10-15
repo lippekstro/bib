@@ -5,7 +5,7 @@ require_once __DIR__ . "/templates/_cabecalho.php";
 <main class="container">
     <div class="m-5 row">
         <div class="col mb-5">
-            <a href="/bib/views/detalhes.php">
+            <a href="/bib/views/detalhes.php" style="text-decoration: none;">
                 <div class="card" style="width: 18rem;">
                     <img src="https://picsum.photos/200" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -14,9 +14,6 @@ require_once __DIR__ . "/templates/_cabecalho.php";
                 </div>
             </a>
         </div>
-
-
-
     </div>
 </main>
 

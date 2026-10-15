@@ -2,7 +2,7 @@
 require_once __DIR__ . "/../templates/_cabecalho.php";
 ?>
 
-<main class="container">
+<main class="container py-5">
     <div class="d-flex justify-content-center">
         <form action="" method="post" enctype="multipart/form-data">
             <div class="form-field">

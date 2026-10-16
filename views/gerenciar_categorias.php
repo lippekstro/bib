@@ -45,18 +45,17 @@ require_once __DIR__ . "/../templates/_cabecalho.php";
                             <td class="text-center">
                                 <div class="d-flex justify-content-center gap-2">
 
-                                    <a href="editar.php?id=1"
+                                    <a href="/bib/views/editar_categoria.php"
                                         class="btn btn-sm btn-outline-primary"
                                         title="Editar">
                                         <img src="/bib/imgs/edit.png" alt="">
                                         Editar
                                     </a>
 
-                                    <form action="excluir.php" method="POST">
+                                    <form action="" method="POST" onsubmit="return confirm('Voce tem certeza que quer deletar o registro?')">
                                         <input type="hidden" name="id" value="1">
 
-                                        <button type="submit"
-                                            class="btn btn-sm btn-outline-danger">
+                                        <button type="submit" class="btn btn-sm btn-outline-danger">
                                             <img src="/bib/imgs/delete.png" alt="">
                                             Excluir
                                         </button>

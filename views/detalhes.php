@@ -7,7 +7,7 @@ require_once __DIR__ . "/../templates/_cabecalho.php";
         <div class="card-body p-3 p-md-4 p-lg-5">
             <div class="row g-4 g-lg-5 align-items-start">
                 <div class="col-4 col-md-4">
-                    <img src="https://picsum.photos/seed/pequeno-principe/400/600" alt="Capa do livro O Pequeno Príncipe" class="img-fluid rounded-3 shadow-sm w-100" style="aspect-ratio: 2 / 3; object-fit: cover;">
+                    <img src="/bib/imgs/livros/generica.png" alt="" class="img-fluid rounded-3 shadow-sm w-100" style="aspect-ratio: 2 / 3; object-fit: cover;">
                 </div>
 
                 <div class="col-8 col-md-8">

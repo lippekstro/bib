@@ -45,7 +45,7 @@ require_once __DIR__ . "/../templates/_cabecalho.php";
                         <tr>
                             <td class="ps-4">1</td>
                             <td>
-                                <img src="https://picsum.photos/200" alt="Capa do livro Dom Casmurro" width="45" height="60" class="rounded shadow-sm" style="object-fit: cover;">
+                                <img src="/bib/imgs/livros/generica.png" alt="Capa do livro Dom Casmurro" width="45" height="60" class="rounded shadow-sm" style="object-fit: cover;">
                             </td>
                             <td class="fw-semibold">Dom Casmurro</td>
                             <td>Machado de Assis</td>

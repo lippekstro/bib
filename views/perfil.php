@@ -15,7 +15,7 @@ require_once __DIR__ . "/../templates/_cabecalho.php";
                 <div class="card-body p-4">
                     <div class="text-center mb-4">
                         <div class="position-relative d-inline-block mb-3">
-                            <img src="https://i.pravatar.cc/300" alt="Foto de perfil de João da Silva" class="rounded-circle img-thumbnail" width="120" height="120" style="object-fit: cover;">
+                            <img src="/bib/imgs/usuarios/generica_perfil.png" alt="Foto de perfil de João da Silva" class="rounded-circle img-thumbnail" width="120" height="120" style="object-fit: cover;">
 
                             <a href="/bib/views/editar_foto.php" class="btn btn-primary btn-sm rounded-circle position-absolute bottom-0 end-0 d-flex align-items-center justify-content-center" style="width: 34px; height: 34px;" title="Alterar foto de perfil" aria-label="Alterar foto de perfil">
                                 <img src="/bib/imgs/add_photo.png" alt="" width="18" height="18">

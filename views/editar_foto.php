@@ -16,7 +16,7 @@ require_once __DIR__ . "/../templates/_cabecalho.php";
         <div class="card-body p-4">
             <form action="" method="POST" enctype="multipart/form-data">
                 <div class="text-center mb-4">
-                    <img src="https://i.pravatar.cc/300" alt="Foto de perfil atual de João da Silva" class="rounded-circle img-thumbnail" width="140" height="140" style="object-fit: cover;">
+                    <img src="/bib/imgs/usuarios/generica_perfil.png" alt="Foto de perfil atual de João da Silva" class="rounded-circle img-thumbnail" width="140" height="140" style="object-fit: cover;">
 
                     <p class="text-muted small mt-2 mb-0">Foto atual</p>
                 </div>

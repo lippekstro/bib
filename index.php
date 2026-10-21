@@ -15,7 +15,7 @@ require_once __DIR__ . "/templates/_cabecalho.php";
             <a href="/bib/views/detalhes.php?id=1"
                 class="text-decoration-none text-reset">
                 <article class="card h-100 border-0 shadow-sm">
-                    <img src="https://picsum.photos/seed/livro1/200/400" class="card-img-top" alt="Capa ilustrativa de Dom Casmurro" loading="lazy" style="aspect-ratio: 2 / 3; object-fit: cover;">
+                    <img src="/bib/imgs/livros/generica.png" class="card-img-top" alt="" loading="lazy" style="aspect-ratio: 2 / 3; object-fit: cover;">
 
                     <div class="card-body">
                         <h2 class="h6 card-title mb-2">
